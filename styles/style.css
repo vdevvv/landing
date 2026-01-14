@@ -1,0 +1,14 @@
+.hero-section {
+    text-align: center;
+    padding: 80px 0;
+    background-color: var(--bg-alt);
+}
+
+.hero-section p {
+    margin: 0 auto;
+}
+
+#contact {
+    background-color: var(--bg-alt);
+}
+

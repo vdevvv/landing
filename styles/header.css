@@ -1,0 +1,38 @@
+.site-header {
+    background-color: rgba(251, 251, 253, 0.8);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    padding: 18px 0;
+    border-bottom: 1px solid var(--border-color);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand-logo {
+    font-weight: 700;
+    font-size: 20px;
+    color: var(--text-main);
+}
+
+.main-nav ul {
+    display: flex;
+    list-style: none;
+    gap: 24px;
+}
+
+.main-nav a {
+    color: var(--text-main);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.main-nav a[aria-current="page"] {
+    color: var(--accent);
+}
